@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/feigndemo/feigndemo.iml" filepath="$PROJECT_DIR$/feigndemo/feigndemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mycloud.iml" filepath="$PROJECT_DIR$/.idea/mycloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacosclient/nacosclient.iml" filepath="$PROJECT_DIR$/nacosclient/nacosclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacosclinet/nacosclinet.iml" filepath="$PROJECT_DIR$/nacosclinet/nacosclinet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacoscomsumer/nacoscomsumer.iml" filepath="$PROJECT_DIR$/nacoscomsumer/nacoscomsumer.iml" />
+    </modules>
+  </component>
+</project>

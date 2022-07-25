@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 42.192.69.29:8848
+    sentinel:
+      transport:
+        dashboard: 42.192.69.29:8080
+        clientIp: 42.192.69.29
+  application:
+    name: sentinel-demo
+server:
+  port: 8110
+

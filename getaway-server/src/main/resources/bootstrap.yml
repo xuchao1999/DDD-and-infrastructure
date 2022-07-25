@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: getaway-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 42.192.69.29:8848
+      config:
+        server-addr: 42.192.69.29:8848
+        file-extension: yaml
+    sentinel:
+      transport:
+        dashboard: 42.192.69.29:8080
+        clientIp: 42.192.69.29
+        port: 8721
+      scg:
+        fallback:
+          mode: response
+          response-status: 405
+          response-body: error!!
+  profiles:
+    active: dev
+server:
+  port: 8892

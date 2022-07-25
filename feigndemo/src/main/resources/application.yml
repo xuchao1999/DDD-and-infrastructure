@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 67d1db7a-d11c-4435-98c5-cd51dc17ebdc
+  application:
+    name: feign-consumer
+server:
+  port: 8803

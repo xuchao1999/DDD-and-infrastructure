@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 67d1db7a-d11c-4435-98c5-cd51dc17ebdc
+  #    sentinel:
+#      transport:
+#        dashboard: 42.192.69.29:8080
+#        clientIp: 42.192.69.29
+  application:
+    name: nacos-provider
+server:
+  port: 8801
+#management:
+#  endpoint:
+#    web:
+#      exposure:
+#        include: "*"

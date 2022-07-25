@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  #    sentinel:
+  #      transport:
+  #        dashboard: 42.192.69.29:8080
+  #        clientIp: 42.192.69.29
+  #        port: 8721
+  application:
+    name: verifycode-provider1
+server:
+  port: 8810
